@@ -1,0 +1,61 @@
+Computing buffer union and intersections...
+{
+  "analysis_date_kst": "2026-10-22",
+  "population_period": "2026 Q2",
+  "population_source_method": "Public rendered HTML table, 427 rows captured. UI download did not open. UTF16-code-unit FNV1a checksum verified against DOM and all 25 district subtotals reconciled.",
+  "population_source_checksum": "4c6b423d",
+  "dong_count": 427,
+  "total_population": 9560471,
+  "elderly_population": 1962133,
+  "city_elderly_share": 0.20523392623647935,
+  "raw_bus_stops": 11236,
+  "excluded_ferry_points": 8,
+  "road_bus_stops": 11228,
+  "road_stops_outside_boundary": 17,
+  "road_stops_outside_fraction": 0.0015140719629497684,
+  "boundary_multiple_assignment_stop_ids": [],
+  "boundary_multiple_assignment_rule": "intersects then ascending adm_cd2, first only; no duplicate event assignment",
+  "boundary_invalid_before": 0,
+  "population_name_crosswalk_match": 427,
+  "metro_raw_rows": 784,
+  "metro_invalid_coordinate_rows": 0,
+  "metro_near_seoul_rows": 414,
+  "metro_exact_coordinate_duplicates": 3,
+  "bus_coordinate_datum": "Working assumption EPSG:4326 (source WGS84 wording + actual degree values); contradictory EPSG-5179 wording remains a metadata limitation.",
+  "metric_working_crs": "EPSG:5179",
+  "median_elderly_share": 0.20840727272727272,
+  "median_uncovered_bus300_area": 0.051828323875,
+  "high_age_high_gap_count": 118,
+  "area_weighted_bus300_coverage": 0.7220186623922187,
+  "median_bus300_coverage": 0.948171676125,
+  "bus300_coverage_min": 0.130826490599,
+  "bus300_coverage_max": 1.0,
+  "median_combined300_500_coverage": 0.967867815543,
+  "combined_top10_overlap_bus_only": 10,
+  "sensitivity_min_overlap_top10": 8,
+  "sensitivity_max_overlap_top10": 10,
+  "spearman_age_gap_rho": 0.13573819333625448,
+  "spearman_naive_p_not_spatially_adjusted": 0.0049590200019468825,
+  "queen_islands": 0,
+  "moran_I_gap300": 0.33963526740915895,
+  "moran_upper_tail_permutation_p_999": 0.001,
+  "supply_raw_rows": 602400,
+  "supply_spatial_assigned_rows": 305961,
+  "boarding_raw_rows": 597021,
+  "boarding_spatial_assigned_rows": 305961,
+  "known_daily_boarding_cells_spatial_subset": 239022,
+  "main_rank_uses_incomplete_supply": false,
+  "carbon_reduction_estimated": false,
+  "no_individual_population_coverage_claim": true
+}
+          adm_nm  elderly_share  bus300_area_coverage  screen_index  top10_scenario_count
+  서울특별시 도봉구 도봉1동       0.352369              0.187709     99.531616                     9
+   서울특별시 강북구 우이동       0.296378              0.130826     98.360656                     9
+  서울특별시 강서구 방화3동       0.300299              0.460945     96.252927                     9
+서울특별시 노원구 상계3·4동       0.275626              0.245326     95.550351                     9
+   서울특별시 관악구 삼성동       0.318688              0.560211     94.964871                     9
+   서울특별시 강북구 인수동       0.295541              0.538278     94.496487                     8
+   서울특별시 강남구 수서동       0.409891              0.645705     93.559719                     6
+  서울특별시 강서구 방화2동       0.264113              0.376465     92.974239                     6
+  서울특별시 중랑구 망우3동       0.271714              0.476151     92.740047                     5
+  서울특별시 금천구 시흥3동       0.288253              0.580612     92.622951                     7

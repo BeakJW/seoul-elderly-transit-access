@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "hypothetical_candidates",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "route_id": "100100320", "route_name": "6647", "from_node_id": "115000300", "to_node_id": "115000075", "from_stop": "개화동상사마을종점", "to_stop": "부석마을.상사마을입구", "from_sequence": 2, "to_sequence": 3, "gap_m": 822.37884658430676, "adm_cd2": "1150064000", "x_5179": 938203.36263949878, "y_5179": 1954215.4269409073, "nearest_existing_stop_m": 334.53282060737206, "pair_key": "115000075|115000300", "candidate_id": "HYP_001", "source_route_ids": "100100320", "target_total_additional_area_m2": 117720.77794911686, "home_dong_additional_area_m2": 117720.77794911688, "home_dong_gain_percentage_points": 1.9042745218507764, "road_alignment_verified": false, "stopping_safety_verified": false, "residential_land_verified": false, "new_bus_service_assumed": true }, "geometry": { "type": "Point", "coordinates": [ 126.800072421124625, 37.585258512982087 ] } }
+]
+}

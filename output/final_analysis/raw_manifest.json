@@ -1,0 +1,37 @@
+[
+  {
+    "file": "seoul_population_2026Q2_DOM_capture.txt",
+    "bytes": 11456,
+    "sha256": "3763473320962343993b55b64a96e55af2206e76c39870bd895dad2a2466536e"
+  },
+  {
+    "file": "HangJeongDong_ver20260701.geojson",
+    "bytes": 34648875,
+    "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f"
+  },
+  {
+    "file": "서울시버스정류소위치정보(20260902).xlsx",
+    "bytes": 741052,
+    "sha256": "73eb0a5f4fd0f6128237b5e23fa361fd1c6d8a31a83bcee2884e6a48481852bb"
+  },
+  {
+    "file": "서울시버스노선별정류소정보(20260902).xlsx",
+    "bytes": 3251120,
+    "sha256": "b54816e9b7e77bcf49dd7562b993db06a093daa666351f115ea4d1dd0dd8b1df"
+  },
+  {
+    "file": "tpss_sta_route_hturn_2026.09.21-09.27.csv",
+    "bytes": 79930585,
+    "sha256": "ceab83a51421cd2149fc2b7031faa1367003fdc62c6ab31cbdbcf5b6607abedc"
+  },
+  {
+    "file": "tpss_sta_route_hpasngr_2026.09.21-09.27.csv",
+    "bytes": 73561082,
+    "sha256": "2812a2da0e019e62212718546fb14cbf42dbe8af3c16d2d127e99f556249e79b"
+  },
+  {
+    "file": "지하철역_GEOM (역사마스터).csv",
+    "bytes": 38362,
+    "sha256": "f6a1eb4282660041ce791ef9391848f320a3b8f7ea7ffbd4365372ea6e5b1608"
+  }
+]

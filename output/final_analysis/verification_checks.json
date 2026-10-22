@@ -1,0 +1,13 @@
+{
+  "all_427_regions": true,
+  "unique_administrative_codes": true,
+  "population_positive": true,
+  "elderly_within_population": true,
+  "coverage_in_unit_interval": true,
+  "index_recomputed": true,
+  "top10_has_10_unique": true,
+  "all_regions_have_supply_records": true,
+  "known_supply_share_in_range": true,
+  "city_population_sum": true,
+  "city_elderly_sum": true
+}

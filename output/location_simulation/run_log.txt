@@ -1,0 +1,79 @@
+{
+  "filters": {
+    "raw_route_stop_rows": 41688,
+    "consecutive_same_route_pairs": 40959,
+    "pairs_both_nodes_in_road_stop_master": 36351,
+    "pairs_gap_600_to_1200m": 4494,
+    "pairs_both_endpoints_same_target_dong": 16,
+    "route_pairs_midpoint_outside_all_bus300_buffers": 2,
+    "unique_unordered_endpoint_pairs": 1
+  },
+  "candidates": 1,
+  "atoms": 1,
+  "checks": {
+    "partition_matches_gain_union": true,
+    "nonoverlapping_atoms": true,
+    "solver_objective_matches_exact_union": true,
+    "budget_and_spacing_satisfied": true,
+    "all_budget_solutions_proven_optimal": true
+  },
+  "scenarios": [
+    {
+      "budget_max_sites": 1,
+      "selected_site_count": 1,
+      "selected_candidates": "HYP_001",
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "proven_optimal": true,
+      "mip_gap": 0.0,
+      "baseline_coverage_pct": 30.624196914956016,
+      "after_coverage_pct": 30.897341612480506,
+      "gain_percentage_points": 0.27314469752448806,
+      "gain_relative_to_baseline_pct": 0.8919244422409383,
+      "uncovered_area_reduction_pct": 0.3937175288474218,
+      "additional_area_m2": 117720.77794911686,
+      "objective_area_m2": 117720.77794911686,
+      "random_valid_draws": 200,
+      "random_median_gain_m2": 117720.77794911686,
+      "random_95pct_gain_m2": 117720.77794911686
+    },
+    {
+      "budget_max_sites": 3,
+      "selected_site_count": 1,
+      "selected_candidates": "HYP_001",
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "proven_optimal": true,
+      "mip_gap": 0.0,
+      "baseline_coverage_pct": 30.624196914956016,
+      "after_coverage_pct": 30.897341612480506,
+      "gain_percentage_points": 0.27314469752448806,
+      "gain_relative_to_baseline_pct": 0.8919244422409383,
+      "uncovered_area_reduction_pct": 0.3937175288474218,
+      "additional_area_m2": 117720.77794911686,
+      "objective_area_m2": 117720.77794911686,
+      "random_valid_draws": 200,
+      "random_median_gain_m2": 117720.77794911686,
+      "random_95pct_gain_m2": 117720.77794911686
+    },
+    {
+      "budget_max_sites": 5,
+      "selected_site_count": 1,
+      "selected_candidates": "HYP_001",
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "proven_optimal": true,
+      "mip_gap": 0.0,
+      "baseline_coverage_pct": 30.624196914956016,
+      "after_coverage_pct": 30.897341612480506,
+      "gain_percentage_points": 0.27314469752448806,
+      "gain_relative_to_baseline_pct": 0.8919244422409383,
+      "uncovered_area_reduction_pct": 0.3937175288474218,
+      "additional_area_m2": 117720.77794911686,
+      "objective_area_m2": 117720.77794911686,
+      "random_valid_draws": 200,
+      "random_median_gain_m2": 117720.77794911686,
+      "random_95pct_gain_m2": 117720.77794911686
+    }
+  ]
+}

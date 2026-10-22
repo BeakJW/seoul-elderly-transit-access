@@ -1,0 +1,65 @@
+[
+  {
+    "name": "서울시 등록인구 통계",
+    "provider": "서울특별시",
+    "platform": "서울통계·서울열린데이터광장",
+    "url": "https://stat.eseoul.go.kr/statHtml/statHtml.do?orgId=201&tblId=DT_201004_O020003&conn_path=I2",
+    "period": "2026년 2분기",
+    "method": "공개 화면 표 427개 동 값 캡처, 체크섬·자치구/서울 합계 대조",
+    "license": "공공누리 제1유형(서울열린데이터광장 메타정보)"
+  },
+  {
+    "name": "서울시 버스정류소 위치정보",
+    "provider": "서울특별시",
+    "platform": "서울열린데이터광장",
+    "url": "https://data.seoul.go.kr/dataList/OA-15067/F/1/datasetView.do",
+    "period": "20260902",
+    "method": "사용자 다운로드 원본 XLSX",
+    "license": "공공누리 제1유형"
+  },
+  {
+    "name": "서울시 버스노선별 정류소 정보",
+    "provider": "서울특별시",
+    "platform": "서울열린데이터광장",
+    "url": "https://data.seoul.go.kr/dataList/OA-1095/S/1/datasetView.do",
+    "period": "20260902",
+    "method": "사용자 다운로드 원본 XLSX",
+    "license": "공공누리 제1유형, 20261022 실제 페이지 확인"
+  },
+  {
+    "name": "노선별 정류장별 총 버스 운행횟수 정보",
+    "provider": "서울특별시",
+    "platform": "서울열린데이터광장",
+    "url": "https://data.seoul.go.kr/dataList/OA-21220/S/1/datasetView.do",
+    "period": "20260921~27",
+    "method": "사용자 다운로드 ZIP/CSV",
+    "license": "공공누리 제1유형, 20261022 실제 페이지 확인"
+  },
+  {
+    "name": "노선별 정류장별 승차 인원 정보",
+    "provider": "서울특별시",
+    "platform": "서울열린데이터광장",
+    "url": "https://data.seoul.go.kr/dataList/OA-21219/S/1/datasetView.do",
+    "period": "20260921~27",
+    "method": "사용자 다운로드 ZIP/CSV",
+    "license": "공공누리 제1유형, 20261022 실제 페이지 확인"
+  },
+  {
+    "name": "지하철역_GEOM (역사마스터)",
+    "provider": "서울특별시 TAIMS",
+    "platform": "T Data 서울교통빅데이터플랫폼",
+    "url": "https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=36",
+    "period": "다운로드 20261022, 개별 레코드 기준일 없음",
+    "method": "공식 다운로드 버튼 CSV",
+    "license": "저작권자표시(BY), 변경·2차저작물 허용"
+  },
+  {
+    "name": "대한민국 행정동 경계 가공본",
+    "provider": "SGIS 원자료 / vuski 가공",
+    "platform": "GitHub vuski/admdongkor",
+    "url": "https://github.com/vuski/admdongkor/blob/master/ver20260701/HangJeongDong_ver20260701.geojson",
+    "period": "20260701",
+    "method": "공개 raw 다운로드, 서울 427개 추출",
+    "license": "SGIS 공공누리 제1유형 + 가공물 CC BY 4.0"
+  }
+]

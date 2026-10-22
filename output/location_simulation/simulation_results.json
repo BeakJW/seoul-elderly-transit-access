@@ -1,0 +1,124 @@
+{
+  "method": "Maximal covering location problem over exact nonoverlapping improvement polygons; binary MILP via SciPy HiGHS. Conditional on finite hypothetical candidates, not an unconstrained site optimum.",
+  "target_scope": "Previously selected top10 review-candidate dongs; not all Seoul, not resident-weighted.",
+  "target_dongs": [
+    "서울특별시 도봉구 도봉1동",
+    "서울특별시 강북구 우이동",
+    "서울특별시 강서구 방화3동",
+    "서울특별시 노원구 상계3·4동",
+    "서울특별시 관악구 삼성동",
+    "서울특별시 강북구 인수동",
+    "서울특별시 강남구 수서동",
+    "서울특별시 강서구 방화2동",
+    "서울특별시 중랑구 망우3동",
+    "서울특별시 금천구 시흥3동"
+  ],
+  "filters": {
+    "raw_route_stop_rows": 41688,
+    "consecutive_same_route_pairs": 40959,
+    "pairs_both_nodes_in_road_stop_master": 36351,
+    "pairs_gap_600_to_1200m": 4494,
+    "pairs_both_endpoints_same_target_dong": 16,
+    "route_pairs_midpoint_outside_all_bus300_buffers": 2,
+    "unique_unordered_endpoint_pairs": 1
+  },
+  "candidate_generation_rules": {
+    "consecutive_sequence": true,
+    "both_endpoints_in_road_stop_master": true,
+    "straight_line_gap_m": [
+      600,
+      1200
+    ],
+    "both_endpoints_same_target_dong": true,
+    "midpoint_inside_target_union": true,
+    "midpoint_nearest_existing_stop_m_gt": 300,
+    "candidate_pair_dedup": "unordered original endpoint NODE_ID pair",
+    "minimum_selected_site_separation_m": 300
+  },
+  "assumptions": [
+    "A hypothetical added stop is served by buses. Actual service provision, route time and ridership response are not estimated.",
+    "A 300m straight-line radius represents a geometric access zone, not walking-network reach.",
+    "Midpoint candidates are synthetic and may not lie on a real road. Road alignment, stopping safety, residential use and exclusion of parks/water have NOT been verified."
+  ],
+  "target_area_m2": 43098320.78602328,
+  "baseline_covered_area_m2": 13198514.62455119,
+  "uncovered_area_m2": 29899806.161472037,
+  "coverage_atoms": 1,
+  "candidate_spacing_conflicts": 0,
+  "partition_error_m2": 0.0,
+  "scenarios": [
+    {
+      "budget_max_sites": 1,
+      "selected_site_count": 1,
+      "selected_candidates": "HYP_001",
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "proven_optimal": true,
+      "mip_gap": 0.0,
+      "baseline_coverage_pct": 30.624196914956016,
+      "after_coverage_pct": 30.897341612480506,
+      "gain_percentage_points": 0.27314469752448806,
+      "gain_relative_to_baseline_pct": 0.8919244422409383,
+      "uncovered_area_reduction_pct": 0.3937175288474218,
+      "additional_area_m2": 117720.77794911686,
+      "objective_area_m2": 117720.77794911686,
+      "random_valid_draws": 200,
+      "random_median_gain_m2": 117720.77794911686,
+      "random_95pct_gain_m2": 117720.77794911686
+    },
+    {
+      "budget_max_sites": 3,
+      "selected_site_count": 1,
+      "selected_candidates": "HYP_001",
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "proven_optimal": true,
+      "mip_gap": 0.0,
+      "baseline_coverage_pct": 30.624196914956016,
+      "after_coverage_pct": 30.897341612480506,
+      "gain_percentage_points": 0.27314469752448806,
+      "gain_relative_to_baseline_pct": 0.8919244422409383,
+      "uncovered_area_reduction_pct": 0.3937175288474218,
+      "additional_area_m2": 117720.77794911686,
+      "objective_area_m2": 117720.77794911686,
+      "random_valid_draws": 200,
+      "random_median_gain_m2": 117720.77794911686,
+      "random_95pct_gain_m2": 117720.77794911686
+    },
+    {
+      "budget_max_sites": 5,
+      "selected_site_count": 1,
+      "selected_candidates": "HYP_001",
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "proven_optimal": true,
+      "mip_gap": 0.0,
+      "baseline_coverage_pct": 30.624196914956016,
+      "after_coverage_pct": 30.897341612480506,
+      "gain_percentage_points": 0.27314469752448806,
+      "gain_relative_to_baseline_pct": 0.8919244422409383,
+      "uncovered_area_reduction_pct": 0.3937175288474218,
+      "additional_area_m2": 117720.77794911686,
+      "objective_area_m2": 117720.77794911686,
+      "random_valid_draws": 200,
+      "random_median_gain_m2": 117720.77794911686,
+      "random_95pct_gain_m2": 117720.77794911686
+    }
+  ],
+  "ridership_prediction_executed": false,
+  "benefiting_population_estimated": false,
+  "carbon_estimated": false,
+  "checks": {
+    "partition_matches_gain_union": true,
+    "nonoverlapping_atoms": true,
+    "solver_objective_matches_exact_union": true,
+    "budget_and_spacing_satisfied": true,
+    "all_budget_solutions_proven_optimal": true
+  },
+  "source_files": [
+    "서울시버스정류소위치정보(20260902).xlsx",
+    "서울시버스노선별정류소정보(20260902).xlsx",
+    "output/final_analysis/dong_screening.geojson",
+    "output/final_analysis/bus_stop_boundary_assignment.csv"
+  ]
+}
